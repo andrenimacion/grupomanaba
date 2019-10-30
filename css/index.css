@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+}
+#paraCont{
+    width: 70%;
+    height: auto;
+    padding: 25px;
+    text-align: justify;
+}
+#banner{
+    width:100%;
+    height: 300px;
+    border-bottom: solid 8px gray;
+    border-radius: 0px 0px 0% 60%;
+    background-image: url('../img/tractor.jpg');
+    background-size: 100% auto;
+    background-position: 0px -180px;
+    
+}
+
+#contenido{
+    height: auto;
+    display: flex;
+    justify-content: strech;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+#mVis{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+li{
+    list-style: none;
+}
+
+#logotipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav{
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+#mision{
+    width: 45%;
+    height: auto;
+    padding: 10px;
+}
+#vision{
+    width: 45%;
+    height: auto;
+    padding: 10px;
+}
+
+h3{
+    font-size: 12pt;
+}
+
+h5{
+    font-size: 9pt;
+}
+
+
+#footer{
+    height: 350px;
+    background-color: green;
+}
+
+#infoCont{
+    height: 300px;
+    width: 300px;
+    border-radius: 100% 100px 250px 100%;
+    background-image: url('../img/manoTierra.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom: solid 10px orangered;
+    border-left: solid 10px orange;
+}
+
+@media(max-width: 600px){
+    #banner{
+    background-position: 0px 0px;
+    }
+    #paraCont{
+        width: 100%;
+    }
+}
+
+#mainMenu{
+    width: 400px;
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+}
+
+#info{
+    display: flex;
+    justify-content: strech;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.emp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+#emp1{
+    background-image: url('../img/agricolas.jpg');
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transition: ease all 1s;
+}
+
+#emp1:hover{
+    transition: ease all 0.5s;
+    opacity: 1;
+}
+
+#emp2{
+    background-image: url('../img/avioneta08.jpg');
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transition: ease all 1s;
+}
+
+#emp2:hover{
+    transition: ease all 0.5s;
+    opacity: 1;
+}
+
+#emp3{
+    background-image: url('../img/cacao-pod-4469210_1920.jpg');
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transition: ease all 1s;
+}
+
+#emp3:hover{
+    transition: ease all 0.5s;
+    opacity: 1;
+}
+
+#emp4{
+    background-image: url('../img/children-597471_1920.jpg');
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transition: ease all 1s;
+}
+
+#emp4:hover{
+    transition: ease all 0.5s;
+    opacity: 1;
+}
+
+#emp5{
+    background-image: url('../img/escuela.jpg');
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transition: ease all 1s;
+}
+
+#emp5:hover{
+    transition: ease all 0.5s;
+    opacity: 1;
+}
+
+#emp6{
+    background-image: url('../img/agrServices.jpg');
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transition: ease all 1s;
+}
+
+#emp6:hover{
+    transition: ease all 0.5s;
+    opacity: 1;
+}
+
+#emp7{
+    background-image: url('../img/bananas-3528314_1920.jpg');
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transition: ease all 1s;
+}
+
+#emp7:hover{
+    transition: ease all 0.5s;
+    opacity: 1;
+}
+
+#emp8{
+    background: yellowgreen;
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transition: ease all 1s;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 600px){
+    #emp8{
+    padding-top: 74px;
+    padding-bottom: 74px;
+        
+    }
+    .emp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+}
+
+#emp8:hover{
+    transition: ease all 0.5s;
+    opacity: 1;
+}
+
+.figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 135px;
+    opacity: 0.8;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    transition: ease all 0.5s;
+}
+
+.figure:hover{
+    transition: ease all 0.5s;
+    opacity: 1;
+    width: 145px;
+    height: 145px;
+}
