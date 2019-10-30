@@ -1,24 +1,42 @@
-*{
+* {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
-#paraCont{
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    color: gray;
+    transition: ease all 0.5s;
+    border-bottom: none;
+}
+
+a:hover {
+    transition: ease all 0.3s;
+    border-bottom: solid 3px orange;
+    text-decoration: none;
+}
+
+#paraCont {
     width: 70%;
     height: auto;
     padding: 25px;
     text-align: justify;
 }
-#banner{
-    width:100%;
+
+#banner {
+    width: 100%;
     height: 300px;
     border-bottom: solid 8px gray;
     border-radius: 0px 0px 0% 60%;
     background-image: url('../img/tractor.jpg');
     background-size: 100% auto;
     background-position: 0px -180px;
-    
 }
 
-#contenido{
+#contenido {
     height: auto;
     display: flex;
     justify-content: strech;
@@ -27,56 +45,50 @@
     padding: 15px;
 }
 
-#mVis{
+#mVis {
     height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    
 }
 
-li{
+li {
     list-style: none;
 }
 
-#logotipo{
+#logotipo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#nav{
+#nav {
     height: 100px;
     margin-bottom: 25px;
 }
 
-#mision{
-    width: 45%;
-    height: auto;
-    padding: 10px;
-}
-#vision{
+#mision {
     width: 45%;
     height: auto;
     padding: 10px;
 }
 
-h3{
+#vision {
+    width: 45%;
+    height: auto;
+    padding: 10px;
+}
+
+h3 {
     font-size: 12pt;
 }
 
-h5{
+h5 {
     font-size: 9pt;
 }
 
-
-#footer{
-    height: 350px;
-    background-color: green;
-}
-
-#infoCont{
+#infoCont {
     height: 300px;
     width: 300px;
     border-radius: 100% 100px 250px 100%;
@@ -87,16 +99,37 @@ h5{
     border-left: solid 10px orange;
 }
 
-@media(max-width: 600px){
-    #banner{
-    background-position: 0px 0px;
+@media(max-width: 1000px) {
+    #infoCont {
+        border-radius: 100%;
     }
-    #paraCont{
+    #contenido {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    #paraCont {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+        text-align: justify;
+    }
+}
+
+@media(max-width: 600px) {
+    #banner {
+        background-position: 0px 0px;
+    }
+    #paraCont {
         width: 100%;
     }
 }
 
-#mainMenu{
+#mainMenu {
     width: 400px;
     text-align: right;
     display: flex;
@@ -105,7 +138,7 @@ h5{
     float: right;
 }
 
-#info{
+#info {
     display: flex;
     justify-content: strech;
     justify-content: center;
@@ -113,7 +146,7 @@ h5{
     flex-wrap: wrap;
 }
 
-.emp{
+.emp {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,122 +156,121 @@ h5{
     cursor: pointer;
 }
 
-#emp1{
+#emp1 {
     background-image: url('../img/agricolas.jpg');
     background-size: 100% 100%;
     opacity: 0.7;
     transition: ease all 1s;
 }
 
-#emp1:hover{
+#emp1:hover {
     transition: ease all 0.5s;
     opacity: 1;
 }
 
-#emp2{
+#emp2 {
     background-image: url('../img/avioneta08.jpg');
     background-size: 100% 100%;
     opacity: 0.7;
     transition: ease all 1s;
 }
 
-#emp2:hover{
+#emp2:hover {
     transition: ease all 0.5s;
     opacity: 1;
 }
 
-#emp3{
+#emp3 {
     background-image: url('../img/cacao-pod-4469210_1920.jpg');
     background-size: 100% 100%;
     opacity: 0.7;
     transition: ease all 1s;
 }
 
-#emp3:hover{
+#emp3:hover {
     transition: ease all 0.5s;
     opacity: 1;
 }
 
-#emp4{
+#emp4 {
     background-image: url('../img/children-597471_1920.jpg');
     background-size: 100% 100%;
     opacity: 0.7;
     transition: ease all 1s;
 }
 
-#emp4:hover{
+#emp4:hover {
     transition: ease all 0.5s;
     opacity: 1;
 }
 
-#emp5{
+#emp5 {
     background-image: url('../img/escuela.jpg');
     background-size: 100% 100%;
     opacity: 0.7;
     transition: ease all 1s;
 }
 
-#emp5:hover{
+#emp5:hover {
     transition: ease all 0.5s;
     opacity: 1;
 }
 
-#emp6{
+#emp6 {
     background-image: url('../img/agrServices.jpg');
     background-size: 100% 100%;
     opacity: 0.7;
     transition: ease all 1s;
 }
 
-#emp6:hover{
+#emp6:hover {
     transition: ease all 0.5s;
     opacity: 1;
 }
 
-#emp7{
+#emp7 {
     background-image: url('../img/bananas-3528314_1920.jpg');
     background-size: 100% 100%;
     opacity: 0.7;
     transition: ease all 1s;
 }
 
-#emp7:hover{
+#emp7:hover {
     transition: ease all 0.5s;
     opacity: 1;
 }
 
-#emp8{
-    background: yellowgreen;
+#emp8 {
+    background-image: url('../img/maderaText.jpg');
     background-size: 100% 100%;
     opacity: 0.7;
     transition: ease all 1s;
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-@media (max-width: 600px){
-    #emp8{
     padding-top: 74px;
     padding-bottom: 74px;
-        
-    }
-    .emp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    cursor: pointer;
-}
 }
 
-#emp8:hover{
+@media (max-width: 600px) {
+    #emp8 {
+        padding-top: 74px;
+        padding-bottom: 74px;
+    }
+    .emp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        cursor: pointer;
+    }
+}
+
+#emp8:hover {
     transition: ease all 0.5s;
     opacity: 1;
 }
 
-.figure{
+.figure {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,9 +282,50 @@ h5{
     transition: ease all 0.5s;
 }
 
-.figure:hover{
+.figure:hover {
     transition: ease all 0.5s;
     opacity: 1;
     width: 145px;
     height: 145px;
+}
+
+#footer {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: whitesmoke;
+}
+
+.infoFoot {
+    display: flex;
+    justify-content: stretch;
+    justify-content: center;
+}
+
+#infoFoot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f {
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+}
+
+#subfooter {
+    background-color: rgb(15, 85, 21);
+    border-bottom: solid 5px rgb(178, 226, 5);
+}
+
+#inff {
+    display: flex;
+    justify-content: stretch;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
 }
